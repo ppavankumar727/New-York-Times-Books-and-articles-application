@@ -6,8 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
-    "frontend": "cd ../frontend && npm run",
-    "start": "concurrently \"npm run dev\" \"npm run frontend\""
+    "build": "cd ../frontend && npm run build",
+    "install-frontend": "cd ../frontend && npm install",
+    "heroku-postbuild":"npm run install-frontend && npm run build",
+    "frontend": "cd ../frontend && npm start",
+    "dev2": "concurrently \"npm run dev\" \"npm run frontend\"",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
