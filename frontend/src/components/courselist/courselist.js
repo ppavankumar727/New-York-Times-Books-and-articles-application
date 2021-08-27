@@ -5,14 +5,13 @@ export class Courselist extends React.Component{
   constructor(props){
     super(props);
   }
-
     render(){
         return (
           <div className="album py-5 bg-light">
-            <div className="container">
+            <div className="container ">
             <div className="row" >
-               <h1 className="col-6">Top books</h1>
-               <input className="form-control-sm ms-auto" type="search" />
+               <h2 className="col-6">Top books</h2>
+               <input className="form-control-sm col-3" type="search"/>
             </div>
             <div className="row">
                 {this.props.booklist && this.props.booklist.map(course => {

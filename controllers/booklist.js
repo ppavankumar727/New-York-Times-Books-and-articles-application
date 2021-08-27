@@ -22,8 +22,8 @@ exports.books=(req,res)=>{
         });
       })
       .then(data => {
-        console.log(data.results.slice(0,4));
-        res.json(data.results.slice(0,4));
+        console.log(data.results.slice(0,6));
+        res.json(data.results.slice(0,6));
       })
       .catch(err => {
         console.error(err);
