@@ -8,18 +8,19 @@
     "dev": "nodemon app.js",
     "build": "./frontend && npm run build",
     "install-frontend": "./frontend && npm install",
-    "heroku-postbuild":"npm run install-frontend && npm run build",
+    "heroku-postbuild": "npm run install-frontend && npm run build",
     "frontend": "cd ./frontend && npm start",
     "start": "concurrently \"npm run dev\" \"npm run frontend\""
   },
   "engines": {
     "node": "14.x",
-    "npm": "7.x"
+    "npm": "7.21.0"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "concurrently": "^6.2.1",
+    "debug": "^4.3.2",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "nodemon": "^2.0.12"
