@@ -12,6 +12,10 @@
     "frontend": "cd ./frontend && npm start",
     "start": "concurrently \"npm run dev\" \"npm run frontend\""
   },
+  "engines": {
+    "node": "14.x",
+    "npm": "7.x"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
