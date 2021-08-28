@@ -4,31 +4,20 @@ import { Course } from '../course/course';
 export class Courselist extends React.Component{
   constructor(props){
     super(props);
-    this.state = {courseName:""};
-    this.search =  this.search.bind(this);
-    this.search();
-  }
-  search(){
-    return fetch('/api/').then(res =>{
-      if(res.ok){
-        return res.json();
-      }
-    }).then(res=>{
-      console.log(res);
-      this.setState({courseName:res.hello})
-    })
   }
     render(){
         return (
           <div className="album py-5 bg-light">
-            <div className="container">
+            <div className="container ">
+            <div className="row" >
+               <h2 className="col-6">Top books</h2>
+               <input className="form-control-sm col-3" type="search"/>
+            </div>
             <div className="row">
-                <Course name = {this.state.courseName}>
-                </Course>
-                <Course name = {this.state.courseName}>
-                </Course>
-                <Course name = {this.state.courseName}>
-                </Course>
+                {this.props.booklist && this.props.booklist.map(course => {
+                  return <Course title={course.book_details[0].title} author={course.book_details[0].author}>
+                  </Course>
+                })} 
             </div>
           </div>
           </div>

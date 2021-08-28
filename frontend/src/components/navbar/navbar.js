@@ -14,7 +14,7 @@ export class Navbar extends React.Component{
                       <li className="nav-item"><a className="nav-link" href="#">Instructor</a></li>
                     </ul>
                     <ul className="navbar-nav ms-auto">
-                      <li className="nav-item text-end text-sm-end text-md-end text-lg-end text-xl-end"><input className="form-control-sm ms-auto" type="search" /><button className="btn btn-info btn-sm" type="button">Search</button><button className="btn btn-primary btn-sm" type="button">Login/Signup</button></li>
+                      <li className="nav-item text-end text-sm-end text-md-end text-lg-end text-xl-end"><button className="btn btn-info btn-sm" type="button">Search</button><button className="btn btn-primary btn-sm" type="button">Login/Signup</button></li>
                     </ul>
                   </div>
                 </div>
