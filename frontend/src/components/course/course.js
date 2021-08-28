@@ -8,7 +8,6 @@ export class Course extends React.Component{
 <div className="card-body">
   <h5 className="card-title">{this.props.title}</h5>
   <p className="card-text">Author :{this.props.author}</p>
-  <a href="#" className="btn btn-primary">Go somewhere</a>
 </div>
 </div>
           );
