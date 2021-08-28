@@ -1,6 +1,6 @@
 const express = require('express'),
 router = express.Router(),
-books = require("../controllers/articlist")
+books = require("../controllers/booklist")
 
 router.get('/',books.books)
 

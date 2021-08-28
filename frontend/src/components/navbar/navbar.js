@@ -10,11 +10,8 @@ export class Navbar extends React.Component{
                   <div className="collapse navbar-collapse" id="navcol-1">
                     <ul className="navbar-nav">
                       <li className="nav-item"><a className="nav-link active" href="#">About</a></li>
-                      <li className="nav-item"><a className="nav-link" href="#">Courses</a></li>
-                      <li className="nav-item"><a className="nav-link" href="#">Instructor</a></li>
-                    </ul>
-                    <ul className="navbar-nav ms-auto">
-                      <li className="nav-item text-end text-sm-end text-md-end text-lg-end text-xl-end"><button className="btn btn-info btn-sm" type="button">Search</button><button className="btn btn-primary btn-sm" type="button">Login/Signup</button></li>
+                      <li className="nav-item"><a className="nav-link inactive" href="#">Courses</a></li>
+                      <li className="nav-item"><a className="nav-link inactive" href="#">Instructor</a></li>
                     </ul>
                   </div>
                 </div>
