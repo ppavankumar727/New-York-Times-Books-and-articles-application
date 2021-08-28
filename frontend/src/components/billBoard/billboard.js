@@ -8,9 +8,8 @@ export class BillBoard extends React.Component{
               <div className="row">
                 <div className="col-md-8">
                   <div className="intro">
-                    <h2>Move Beyond The Limitations Of ELearning</h2>
-                    <p className="text-body">Anytime Anywhere To Discover Yourself</p><a className="btn btn-primary btn-sm d-inline-block" role="button" href="#">Get Started</a>
-                    <h6 className="d-inline-block">&nbsp; &nbsp; Become An Instructor</h6>
+                    <h2>New York Times</h2>
+                    <p className="text-body">Discover New York's Finest Hours</p>
                   </div>
                 </div>
                 <div className="col-sm-4">

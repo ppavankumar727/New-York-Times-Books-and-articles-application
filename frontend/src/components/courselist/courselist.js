@@ -11,7 +11,6 @@ export class Courselist extends React.Component{
             <div className="container ">
             <div className="row" >
                <h2 className="col-6">Top books</h2>
-               <input className="form-control-sm col-3" type="search"/>
             </div>
             <div className="row">
                 {this.props.booklist && this.props.booklist.map(course => {
