@@ -10,7 +10,7 @@
  * New York Times API https://developer.nytimes.com/
 
 ## Application Live at 
-   * ecom-assignment.herokuapp.com/
+   * https://ecom-assignment.herokuapp.com/
 
 ## Future Enhancements
 * User Base 
