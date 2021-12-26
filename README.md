@@ -1,5 +1,4 @@
-# demo_backend_developer
-## New York Times Books and articles application 
+# New York Times Books and articles application 
 ### OverView : its a full stack web application where the backend of the application fetches data from the new york times API the front end renders the datea 
 
 
